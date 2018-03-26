@@ -10,7 +10,7 @@ simple message marshal and unmarshal example by go and protobuf
 
 3) install proto go library - ***go get -u github.com/golang/protobuf/protoc-gen-go*** (refer https://github.com/golang/protobuf)
 
-4) if protoc cannot find protoc-gen-go, ***cd %GOPATH%\src\github.com\golang\protobuf\protoc-gen-go*** and exectue ***go build*** and move protoc-gen-go executable into protocol buffer(step 2)'s \bin directory
+4) if protoc cannot find protoc-gen-go, check environment path, %GOPATH%\bin
 
 5) make your own message .proto file (refer https://developers.google.com/protocol-buffers/docs/proto3)
 
